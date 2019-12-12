@@ -8,7 +8,7 @@ class UserTest < ActiveSupport::TestCase
 
   test "should be valid" do
     assert @user.valid?
-  end 
+  end
 
   test "name should be present" do
     @user.name = "     "
@@ -28,7 +28,7 @@ class UserTest < ActiveSupport::TestCase
   test "email should not be too long" do
     @user.email = "a" * 244 + "@example.com"
     assert_not @user.valid?
-  end 
+  end
 
   test "email validation should accept valid addresses" do
     valid_addresses = %w[user@example.com USER@foo.COM A_US-ER@foo.bar.org
@@ -46,7 +46,7 @@ class UserTest < ActiveSupport::TestCase
       @user.email = invalid_address
       assert_not @user.valid?, "#{invalid_address.inspect} should be invalid"
     end
-  end 
+  end
 
   test "email addresses should be unique" do
     duplicate_user = @user.dup
@@ -71,5 +71,8 @@ class UserTest < ActiveSupport::TestCase
     @user.password = @user.password_confirmation = "a" * 5
     assert_not @user.valid?
   end
-end
 
+  test "authenticated? should return false for a user with nil digest" do
+    assert_not @user.authenticated?('')
+  end
+end
