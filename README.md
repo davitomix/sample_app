@@ -5,11 +5,11 @@ This is the sample application for
 Learn Web Development with Rails*](https://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
-## License
+## Built With
 
-All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
+- Ruby,
+- Ruby on Rails,
+- Html, CSS and JS
 
 ## Getting started
 
@@ -36,3 +36,31 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
+
+## Authors
+
+👤 **David Eli Martinez Garcia**
+
+- Github: [@davitomix](https://github.com/davitomix)
+- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+
+## Heroku Live Version :computer:
+
+- [Live](https://pure-peak-60456.herokuapp.com/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
+is available jointly under the MIT License and the Beerware License. See
+[LICENSE.md](LICENSE.md) for details.
