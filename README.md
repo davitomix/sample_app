@@ -46,7 +46,7 @@ $ rails server
 
 ## Heroku Live Version :computer:
 
-- [Live](https://pure-peak-60456.herokuapp.com/)
+- [Live version 🧁](https://pure-peak-60456.herokuapp.com/)
 
 ## 🤝 Contributing
 
