@@ -1,5 +1,5 @@
 # Ruby on Rails Tutorial sample application :rocket:
-A Twitter Clone app: Some of the core features of the platform – users, profiles, “following”, posts, and news feed. I also implement sign-in, password reset and account activation.
+A Twitter Clone app: Some of the core features of the platform – users, profiles, “following”, posts, and news feed. I also implement sign-in, password reset and account activation <br>
 This app was made following the sample application for
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](https://www.railstutorial.org/)
