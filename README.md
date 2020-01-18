@@ -1,4 +1,4 @@
-# Ruby on Rails Tutorial sample application :rocket:
+# Ruby on Rails Tutorial Sample App :rocket:
 A Twitter Clone app: Some of the core features of the platform – users, profiles, “following”, posts, and news feed. I also implement sign-in, password reset and account activation <br>
 This app was made following the sample application for
 [*Ruby on Rails Tutorial:
@@ -23,6 +23,11 @@ Next, migrate the database:
 
 ```
 $ rails db:migrate
+```
+
+Then, make many moc data to interaction:
+```
+$ rails db:seed
 ```
 
 Finally, run the test suite to verify that everything is working correctly:
