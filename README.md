@@ -51,7 +51,8 @@ $ rails server
 
 ## Heroku Live Version :computer:
 
-- [Live version 🧁](https://pure-peak-60456.herokuapp.com/)
+- [Live version 🧁](https://pure-peak-60456.herokuapp.com/) <br>
+- Try it! Join with these credentials :arrow_right: user: 'example-2@railstutorial.org' | password: 'password' :rocket:
 
 ## 🤝 Contributing
 
